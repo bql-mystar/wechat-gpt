@@ -1,8 +1,3 @@
-// -----------------------------------------------------------------------
-// Copyright (c) 2022 Akuvox Corporation and Akubela-Eevee Contributors.
-// All rights reserved.
-// -----------------------------------------------------------------------
-
 package handler
 
 import (
@@ -13,7 +8,7 @@ import (
 )
 
 var userMatchFunc openwechat.MatchFunc = func(message *openwechat.Message) bool {
-	return message.IsSendByFriend() || message.IsSendBySelf()
+	return message.IsSendByFriend()
 }
 
 var userMessageContextHandler openwechat.MessageContextHandler = func(ctx *openwechat.MessageContext) {

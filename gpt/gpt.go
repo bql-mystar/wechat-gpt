@@ -1,8 +1,3 @@
-// -----------------------------------------------------------------------
-// Copyright (c) 2022 Akuvox Corporation and Akubela-Eevee Contributors.
-// All rights reserved.
-// -----------------------------------------------------------------------
-
 package gpt
 
 import (
